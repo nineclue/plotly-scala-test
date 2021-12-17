@@ -11,6 +11,6 @@ object App {
             Scatter(x, y2).withName("Exp")
         )
         val lay = Layout().withTitle("Curves")
-        plot.plot("app", lay)  // attaches to div element with id 'plot'
+        plot.plot("chart", lay)  // attaches to div element with id 'plot'
     }
 }
